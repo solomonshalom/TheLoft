@@ -49,10 +49,6 @@ const Footer: React.FC<BoxProps> = (props) => (
 						</li>
 
 						<li>
-							<FooterLink href="/colophon">Colophon</FooterLink>
-						</li>
-
-						<li>
 							<FooterLink href="/uses">Uses</FooterLink>
 						</li>
 
