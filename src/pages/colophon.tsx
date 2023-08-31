@@ -46,7 +46,7 @@ interface ColophonProps {
 }
 
 const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
-	const { react, next, mdx, themeUI, prismjs, typescript, eslint, prettier } =
+	const { react, next, mdx, themeUI, prismjs, typescript, eslint } =
 		versions
 
 	return (
@@ -126,9 +126,6 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 								ESLint
 							</Dependency>
 
-							<Dependency version={prettier} href="https://prettier.io">
-								Prettier
-							</Dependency>
 						</DependencyList>
 					</Box>
 				</Grid>
@@ -149,7 +146,6 @@ export const getStaticProps: GetStaticProps = async () => {
 			prismjs: { version: prismjs },
 			typescript: { version: typescript },
 			eslint: { version: eslint },
-			prettier: { version: prettier },
 		},
 	} = pkg
 
@@ -161,7 +157,6 @@ export const getStaticProps: GetStaticProps = async () => {
 		prismjs,
 		typescript,
 		eslint,
-		prettier,
 	}
 
 	return {

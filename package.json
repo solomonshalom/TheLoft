@@ -53,21 +53,15 @@
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "@types/webpack-env": "^1.17.0",
-    "eslint": "^7.32.0",
+    "eslint": "8.47.0",
     "eslint-config-lowmess": "^4.1.4",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
-    "prettier": "^2.8.8",
-    "prettier-config-lowmess": "^0.3.0",
     "typescript": "^5.0.4"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix --max-warnings 0",
-      "prettier --write"
-    ],
-    "*.{json,css,md}": [
-      "prettier --write"
+      "eslint --fix --max-warnings 0"
     ]
   }
 }
