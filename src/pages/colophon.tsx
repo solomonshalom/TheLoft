@@ -4,7 +4,6 @@ import Head from 'next/head'
 import { Box, Grid, Text, Container, Heading, Link } from 'theme-ui'
 import { VStack } from '../components/Stack'
 import { Header, HeaderName, HeaderTitle } from '../components/Header'
-import pkg from '../../package.json'
 import metadata from '../constants/metadata.json'
 
 const DependencyList = (props) => (
@@ -74,15 +73,15 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 								TypeScript
 							</Dependency>
 
-							<Dependency version={react} href="https://reactjs.org">
+							<Dependency version="1.2.1" href="https://reactjs.org">
 								React
 							</Dependency>
 
-							<Dependency version={next} href="https://nextjs.org">
+							<Dependency version="1.2.1" href="https://nextjs.org">
 								Next.js
 							</Dependency>
 
-							<Dependency version={mdx} href="https://mdxjs.com">
+							<Dependency version="1.1.1" href="https://mdxjs.com">
 								MDX
 							</Dependency>
 						</DependencyList>
@@ -94,11 +93,11 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 						</Heading>
 
 						<DependencyList>
-							<Dependency version={themeUI} href="https://theme-ui.com">
+							<Dependency version="0.1.1" href="https://theme-ui.com">
 								Theme UI
 							</Dependency>
 
-							<Dependency version={prismjs} href="https://prismjs.com/">
+							<Dependency version="2.21" href="https://prismjs.com/">
 								Prism
 							</Dependency>
 
@@ -137,17 +136,6 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 // `getStaticProps` must be async, but I don't need to wait on jack
 // eslint-disable-next-line require-await
 export const getStaticProps: GetStaticProps = async () => {
-	const {
-		dependencies: {
-			react: { version: react },
-			next: { version: next },
-			'@mdx-js/mdx': { version: mdx },
-			'theme-ui': { version: themeUI },
-			prismjs: { version: prismjs },
-			typescript: { version: typescript },
-			eslint: { version: eslint },
-		},
-	} = pkg
 
 	const versions = {
 		react,
