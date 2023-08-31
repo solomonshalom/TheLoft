@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Dank Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('DankMono-Regular.woff2') format('woff2'),
+    url('DankMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Dank Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('DankMono-Italic.woff2') format('woff2'),
+    url('DankMono-Italic.otf') format('opentype');
+}
