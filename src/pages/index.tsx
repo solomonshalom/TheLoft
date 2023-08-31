@@ -99,7 +99,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 					</Link>{' '}
 					to GitHub, taken collectively{' '}
 					<ValueCount value={steps} singular="step" plural="steps" />, and
-					visited <ValueCount value={Infinity} /> places. If your interested in knowing more
+					visited <ValueCount value={Infinity} singular="place" plural="places" />. If your interested in knowing more
 					about us or to discuss about a project, contact us @ <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
 				</Text>
 			</Text>
