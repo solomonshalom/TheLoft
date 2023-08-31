@@ -4,7 +4,6 @@ import { Box, Flex } from 'theme-ui'
 import { useTheme } from '../../constants/theme'
 import metadata from '../../constants/metadata.json'
 import Nav from '../Nav'
-import Footer from '../Footer'
 import GlobalStyles from './GlobalStyles'
 
 const Layout: React.FC = ({ children }) => {
@@ -36,7 +35,6 @@ const Layout: React.FC = ({ children }) => {
 					{children}
 				</Box>
 
-				<Footer mt={5} />
 			</Flex>
 		</React.Fragment>
 	)

@@ -47,37 +47,34 @@ const UsesPage: React.FC = () => (
 		<Header>
 			<HeaderName>Uses</HeaderName>
 
-			<HeaderTitle>Tools of My Trade</HeaderTitle>
+			<HeaderTitle>Tools of Our Trade</HeaderTitle>
 		</Header>
 
 		<Container mt={5}>
 			<Grid columns={[1, '8rem 1fr']} gap={[4, 5]}>
-				<Heading color="muted-text">Hardware</Heading>
+				<Heading color="muted-text">Coding Ninja Stuff</Heading>
 
 				<DependencyList>
 					<li>
-						<Dependency>2020 13&Prime; MacBook Pro</Dependency>
+						<Dependency>NextJS</Dependency>
 
-						<Details>1.4GHz Quad-Core Intel i5, 16GB memory</Details>
+						<Details>Reac-based framework for developing super cool experiances</Details>
 					</li>
 
 					<li>
-						<Dependency>34&Prime; Acer XR Ultrawide Monitor</Dependency>
+						<Dependency>Firebase (Maybe supabase, depends)</Dependency>
 
-						<Details>XR342CK Pbmiiqphuzx</Details>
+						<Details>Backend // Database</Details>
 					</li>
 
 					<li>
-						<Dependency href="https://input.club/whitefox">
-							Input Club WhiteFox Keyboard
+						<Dependency>
+							Tailwind
 						</Dependency>
 
-						<Details>Hako Clear switches</Details>
+						<Details>An aesthetic CSS framework that gives beauty to your projects</Details>
 					</li>
 
-					<li>
-						<Dependency>Magic Trackpad 2</Dependency>
-					</li>
 				</DependencyList>
 
 				<Heading color="muted-text" mt={[4, 0]}>
@@ -89,53 +86,6 @@ const UsesPage: React.FC = () => (
 						<Dependency href="https://code.visualstudio.com">
 							VS Code
 						</Dependency>
-
-						<Details>
-							<Link variant="ui" href="https://dank.sh">
-								Dank Mono
-							</Link>
-							,{' '}
-							<Link variant="ui" href="https://plastictheme.com">
-								Plastic theme
-							</Link>
-						</Details>
-					</li>
-
-					<li>
-						<Dependency href="https://https://iterm2.com">iTerm 2</Dependency>
-
-						<Details>
-							Zsh,{' '}
-							<Link variant="ui" href="https://dank.sh">
-								Dank Mono
-							</Link>
-							,{' '}
-							<Link variant="ui" href="https://plastictheme.com">
-								Plastic theme
-							</Link>
-						</Details>
-					</li>
-
-					<li>
-						<Dependency href="https://affinity.serif.com/en-us/designer">
-							Affinity Designer
-						</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://www.alfredapp.com">Alfred</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://mizage.com/divvy">Divvy</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://kapeli.com/dash">Dash</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://tot.rocks">Tot</Dependency>
 					</li>
 				</DependencyList>
 
@@ -149,7 +99,7 @@ const UsesPage: React.FC = () => (
 					</li>
 
 					<li>
-						<Dependency href="https://netlify.com">Netlify</Dependency>
+						<Dependency href="https://netlify.com">Netlify (Rare)</Dependency>
 					</li>
 
 					<li>
@@ -157,7 +107,7 @@ const UsesPage: React.FC = () => (
 					</li>
 
 					<li>
-						<Dependency href="https://dropbox.com">Dropbox</Dependency>
+						<Dependency href="https://skiff.com">Skiff</Dependency>
 					</li>
 				</DependencyList>
 			</Grid>

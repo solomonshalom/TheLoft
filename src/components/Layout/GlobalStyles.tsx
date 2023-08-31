@@ -33,8 +33,7 @@ const GlobalStyles: React.FC = () => {
 						color: ${theme.colors.black} !important;
 					}
 
-					nav,
-					footer {
+					nav {
 						display: none;
 					}
 				}

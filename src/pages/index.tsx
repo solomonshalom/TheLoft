@@ -89,12 +89,12 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 					We&rsquo;re Skynet, and we make digital experiances 🌴.
 				</Heading>{' '}
 				<Heading as="h2" variant="site-intro">
-					We&rsquo;re currently working on{' '}
+					Check out our cool (really cool) experiance{' '}
 					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
 				<Text as="p" variant="site-intro">
-					if your interested in knowing more about us or about a cool idea you have{' '}
-					contact us @ <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
+					if your interested in knowing more about us or have a cool idea to dicuss,{' '}
+					contact us [at] <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
 				</Text>
 			</Text>
 		</Container>
