@@ -10,7 +10,7 @@ export type Book = {
 
 export type Stats = {
 	commits?: number
-	places?: number
+	places?: string
 	steps?: number
 	songs?: number
 	album?: Album
