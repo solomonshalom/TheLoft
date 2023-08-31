@@ -67,7 +67,7 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 
 						<DependencyList>
 							<Dependency
-								version={typescript}
+								version="2.1.3"
 								href="https://typescriptlang.org/"
 							>
 								TypeScript
