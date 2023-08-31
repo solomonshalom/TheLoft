@@ -133,14 +133,7 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 // `getStaticProps` must be async, but I don't need to wait on jack
 export const getStaticProps: GetStaticProps = async () => {
 
-	const versions = {
-		react,
-		next,
-		mdx,
-		themeUI,
-		prismjs,
-		typescript,
-	}
+	const versions;
 
 	return {
 		props: {
