@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { Box, Grid, Text, Container, Heading, Link } from 'theme-ui'
 import { VStack } from '../components/Stack'
 import { Header, HeaderName, HeaderTitle } from '../components/Header'
-import pkg from '../../package-lock.json'
+import pkg from '../../package.json'
 import metadata from '../constants/metadata.json'
 
 const DependencyList = (props) => (
