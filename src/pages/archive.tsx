@@ -33,7 +33,7 @@ const Archive: React.FC = () => (
 			<VStack gap={5}>
 				<VStack gap={3}>
 					<Heading>
-						Kent C. Dodd's Digital Experiance <Dates>(2022 &ndash; 2023)</Dates>
+						Kent C. Dodd's Digital experience <Dates>(2022 &ndash; 2023)</Dates>
 					</Heading>
 
 					<Description>

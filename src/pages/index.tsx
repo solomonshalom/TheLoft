@@ -86,10 +86,10 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 			{/* The `Text` wrapper makes sure spaces are consistently sized */}
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 				<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
-					We&rsquo;re Skynet, and we make digital experiances 🌴.
+					We&rsquo;re Skynet, and we make digital experiences 🌴.
 				</Heading>{' '}
 				<Heading as="h2" variant="site-intro">
-					Check out our cool (really cool) experiance{' '}
+					Check out our cool (really cool) experience{' '}
 					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
 				<Text as="p" variant="site-intro">

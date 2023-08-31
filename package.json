@@ -1,7 +1,7 @@
 {
   "name": "skynet",
   "version": "4.3.0",
-  "description": "Building digital experiances~",
+  "description": "Building digital experiences~",
   "scripts": {
     "start": "next dev",
     "prebuild": "node scripts/generate-sitemap && node scripts/generate-rss",

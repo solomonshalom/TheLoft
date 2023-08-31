@@ -58,7 +58,7 @@ const UsesPage: React.FC = () => (
 					<li>
 						<Dependency>NextJS</Dependency>
 
-						<Details>Reac-based framework for developing super cool experiances</Details>
+						<Details>Reac-based framework for developing super cool experiences</Details>
 					</li>
 
 					<li>

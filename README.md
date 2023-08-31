@@ -1,5 +1,7 @@
 # Skynet
 
+The official, ultra-minimal digital garden of Skynet <3
+
 ## Installing
 
 ```bash
