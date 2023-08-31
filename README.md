@@ -1,9 +1,9 @@
-# lowmess.com
+# Skynet
 
 ## Installing
 
 ```bash
-git clone https://github.com/lowmess/lowmess.git
+git clone https://github.com/solomonshalom/skynet.git
 cd lowmess
 npm i
 ```

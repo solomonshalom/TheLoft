@@ -75,40 +75,17 @@ const Footer: React.FC<BoxProps> = (props) => (
 
 					<Text as="ul" variant="list" sx={{ lineHeight: 1.75 }}>
 						<li>
-							<FooterLink href="https://github.com/lowmess" external>
+							<FooterLink href="https://github.com/Skynet-Technology" external>
 								GitHub
 							</FooterLink>
 						</li>
 
 						<li>
-							<FooterLink href="https://twitter.com/lowmess" external>
-								Twitter
-							</FooterLink>
-						</li>
-
-						<li>
-							<FooterLink href="https://dribbble.com/lowmess" external>
-								Dribbble
-							</FooterLink>
-						</li>
-
-						<li>
-							<FooterLink href="https://codepen.io/lowmess" external>
-								CodePen
-							</FooterLink>
-						</li>
-
-						<li>
-							<FooterLink href="https://linkedin.com/in/lowmess" external>
+							<FooterLink href="https://www.linkedin.com/company/skynettech7/" external>
 								LinkedIn
 							</FooterLink>
 						</li>
 
-						<li>
-							<FooterLink href="https://resume.lowmess.com" external>
-								Résumé
-							</FooterLink>
-						</li>
 					</Text>
 				</Box>
 

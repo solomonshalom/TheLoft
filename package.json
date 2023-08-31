@@ -1,7 +1,7 @@
 {
-  "name": "lowmess",
+  "name": "skynet",
   "version": "4.3.0",
-  "description": "The website and portfolio of Alec Lomas",
+  "description": "Building digital experiances~",
   "scripts": {
     "start": "next dev",
     "prebuild": "node scripts/generate-sitemap && node scripts/generate-rss",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lowmess/lowmess.git"
+    "url": "git+https://github.com/solomonshalom/skynet"
   },
   "keywords": [
     "portfolio",
@@ -21,9 +21,8 @@
   "author": "Alec Lomas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lowmess/lowmess/issues"
+    "url": "https://github.com/solomonshalom/skynet/issues"
   },
-  "homepage": "https://lowmess.com",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",

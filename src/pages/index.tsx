@@ -86,50 +86,21 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 			{/* The `Text` wrapper makes sure spaces are consistently sized */}
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 				<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
-					My name is Alec Lomas, and I make websites.
+					We&rsquo;re Skynet, and we make digital experiances.
 				</Heading>{' '}
 				<Heading as="h2" variant="site-intro">
-					I&rsquo;m currently working with{' '}
-					<Link href="https://datatheorem.com">Data Theorem</Link> to secure
-					modern applications.
+					We&rsquo;re currently working on{' '}
+					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
 				<Text as="p" variant="site-intro">
-					In the last 30 days, I&rsquo;ve pushed{' '}
-					<Link href="https://github.com/lowmess">
+					In the last 30 days, We&rsquo;ve pushed{' '}
+					<Link href="https://github.com/solomonshalom">
 						<ValueCount value={commits} singular="commit" plural="commits" />
 					</Link>{' '}
-					to GitHub, taken{' '}
+					to GitHub, taken collectively{' '}
 					<ValueCount value={steps} singular="step" plural="steps" />, and
-					visited <ValueCount value={places} singular="place" plural="places" />
-					.
-					{album.name && album.artist && (
-						<React.Fragment>
-							{' '}
-							My most played album is{' '}
-							<Link href="https://www.last.fm/user/lowmess/library/albums?date_preset=LAST_30_DAYS">
-								&ldquo;{album.name}&rdquo; by {album.artist}
-							</Link>
-							, and I&rsquo;ve listened to{' '}
-							<Link href="https://www.last.fm/user/lowmess">
-								<ValueCount value={songs} singular="song" plural="songs" />
-							</Link>{' '}
-							overall.
-						</React.Fragment>
-					)}
-					{books.length > 0 && (
-						<React.Fragment>
-							{' '}
-							I am reading{' '}
-							<Link href="https://www.goodreads.com/user/show/27057705-alec-lomas">
-								<ValueCount
-									value={books.length}
-									singular="book"
-									plural="books"
-								/>
-							</Link>{' '}
-							at the moment: <BooksToSentence books={books} />.
-						</React.Fragment>
-					)}
+					visited <ValueCount value="tons of" singular="places" plural="places" />. If your interested in knowing more
+					about us or to discuss about a project, contact us @ <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
 				</Text>
 			</Text>
 		</Container>
