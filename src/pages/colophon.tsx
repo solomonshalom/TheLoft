@@ -45,7 +45,7 @@ interface ColophonProps {
 }
 
 const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
-	const { react, next, mdx, themeUI, prismjs, typescript, eslint } =
+	const { react, next, mdx, themeUI, prismjs, typescript } =
 		versions
 
 	return (
@@ -121,9 +121,6 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 
 							<Dependency href="https://vercel.com">Vercel</Dependency>
 
-							<Dependency version={eslint} href="https://eslint.org">
-								ESLint
-							</Dependency>
 
 						</DependencyList>
 					</Box>
@@ -134,7 +131,6 @@ const ColophonPage: React.FC<ColophonProps> = ({ versions }) => {
 }
 
 // `getStaticProps` must be async, but I don't need to wait on jack
-// eslint-disable-next-line require-await
 export const getStaticProps: GetStaticProps = async () => {
 
 	const versions = {
@@ -144,7 +140,6 @@ export const getStaticProps: GetStaticProps = async () => {
 		themeUI,
 		prismjs,
 		typescript,
-		eslint,
 	}
 
 	return {

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import * as React from 'react'
 import GithubSlugger from 'github-slugger'
 import { onlyText } from 'react-children-utilities'

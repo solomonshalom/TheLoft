@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import * as React from 'react'
 import { Box, Text, Grid, Container } from 'theme-ui'
 import Highlight, { defaultProps } from 'prism-react-renderer'
@@ -55,7 +54,6 @@ const Code: React.FC<CodeProps> = ({
 					// TS doesn't like that we're passing a string to an enum, but since
 					// we're rendering this from MDX we don't know the language ahead
 					// of time.
-					// eslint-disable-next-line
 					// @ts-ignore
 					language={language}
 					theme={theme}
@@ -80,7 +78,6 @@ const Code: React.FC<CodeProps> = ({
 							{...props}
 						>
 							{tokens.map((line, index) => (
-								// eslint-disable-next-line
 								<Grid
 									columns={[1, '2ch 1fr']}
 									sx={{ display: ['block', 'grid'], columnGap: 3, rowGap: 0 }}
@@ -93,7 +90,6 @@ const Code: React.FC<CodeProps> = ({
 
 									<div>
 										{line.map((token, key) => (
-											// eslint-disable-next-line
 											<span {...getTokenProps({ token, key })} />
 										))}
 									</div>

@@ -1,4 +1,3 @@
-/* eslint-disable import/exports-last */
 import { useThemeUI, ThemeUIContextValue } from 'theme-ui'
 import { Theme, ThemeUICSSObject, ColorModesScale } from '@theme-ui/css'
 // primitives

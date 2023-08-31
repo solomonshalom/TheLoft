@@ -23,8 +23,7 @@ const extractMeta = (source) => {
 	if (!match || typeof match[1] !== 'string') {
 		throw new Error(`${name} needs to export const meta = {}`)
 	}
-
-	// eslint-disable-next-line no-eval
+	
 	const meta = eval(`(${match[1]})`)
 
 	return meta

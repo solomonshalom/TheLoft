@@ -57,7 +57,6 @@ const securityHeaders = [
 const nextConfig = {
 	pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 
-	// eslint-disable-next-line require-await
 	async headers() {
 		return [
 			{

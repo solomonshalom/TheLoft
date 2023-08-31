@@ -1,5 +1,3 @@
-/* eslint-disable import/exports-last */
-
 type Album = {
 	name: string
 	artist: string
