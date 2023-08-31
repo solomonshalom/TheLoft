@@ -86,21 +86,15 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 			{/* The `Text` wrapper makes sure spaces are consistently sized */}
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 				<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
-					We&rsquo;re Skynet, and we make digital experiances.
+					We&rsquo;re Skynet, and we make digital experiances 🌴.
 				</Heading>{' '}
 				<Heading as="h2" variant="site-intro">
 					We&rsquo;re currently working on{' '}
 					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
 				<Text as="p" variant="site-intro">
-					In the last 30 days, We&rsquo;ve pushed{' '}
-					<Link href="https://github.com/solomonshalom">
-						<ValueCount value={commits} singular="commit" plural="commits" />
-					</Link>{' '}
-					to GitHub, taken collectively{' '}
-					<ValueCount value={steps} singular="step" plural="steps" />, and
-					visited <ValueCount value={Infinity} singular="place" plural="places" />. If your interested in knowing more
-					about us or to discuss about a project, contact us @ <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
+					if your interested in knowing more about us or about a cool idea you have{' '}
+					contact us @ <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
 				</Text>
 			</Text>
 		</Container>
