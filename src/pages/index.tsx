@@ -71,7 +71,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 	const {
 		commits = 0,
 		steps = 0,
-		places = 0,
+		places = "0",
 		songs = 0,
 		album = null,
 		books = [],
