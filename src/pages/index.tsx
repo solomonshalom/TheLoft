@@ -83,7 +83,10 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				Introduction
 			</Text>
 
+			{/*No idea how, but God, no joke, literally saved the code and deployed! Every Glory is to my Lord and Saviour, Jesus Christ!*/}
+			{/*Added a bunch of <br> tags to seperate the main text from the contact, also to shift the main focus. Idea given by dad <3*/}
 			{/* The `Text` wrapper makes sure spaces are consistently sized */}
+
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 				<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
 					We&rsquo;re Skynet, and we make digital experiences 🌴
@@ -95,6 +98,8 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 					Check out our cool (really cool) experience{' '}
 					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
+				<br></br>
+				<br></br>
 				<b>// Don't be shy 🤭</b>
 				<br></br>
 				<br></br>
