@@ -47,6 +47,7 @@ const Nav: React.FC<BoxProps> = ({ sx, ...props }) => {
 				<Logo />
 
 				<Flex sx={{ alignItems: 'center' }}>
+				{/*
 					<Flex as="ul">
 						<li>
 							<NavLink
@@ -77,7 +78,7 @@ const Nav: React.FC<BoxProps> = ({ sx, ...props }) => {
 							</NavLink>
 						</li>
 					</Flex>
-
+			*/}
 					<ColorModeToggle ml={[2, 3]} />
 				</Flex>
 			</Container>
