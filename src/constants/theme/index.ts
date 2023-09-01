@@ -21,24 +21,25 @@ const makeTheme = <T extends Theme>(t: T) => t
 
 const breakpoints = ['40em', '64em']
 
+const initialColorMode = 'light'; // Set your initial color mode here
+
 const theme = makeTheme({
-	// primitives
-	breakpoints,
-	colors,
-	space,
-	borders,
-	radii,
-	fonts,
-	fontSizes,
-	fontWeights,
-	lineHeights,
-	sizes,
-	// variants
-	styles,
-	layout,
-	text,
-	links,
-	buttons,
+  breakpoints,
+  colors,
+  space,
+  borders,
+  radii,
+  fonts,
+  fontSizes,
+  fontWeights,
+  lineHeights,
+  sizes,
+  styles,
+  layout,
+  text,
+  links,
+  buttons,
+  initialColorMode, // Add this line to set the initial color mode
 })
 
 export type ExactTheme = typeof theme & {
