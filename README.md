@@ -1,13 +1,17 @@
 # Skynet
 
-The official, ultra-minimal digital garden of Skynet <3
+The official, ultra-minimal digital garden of Skynet <3.
+
+## Credits
+
+Based on [Lowmess](https://lowmess.com), a super-cool minimal site (Thank You! Alec, It's really cool 😃).
 
 ## Installing
 
 ```bash
 git clone https://github.com/solomonshalom/skynet.git
-cd lowmess
-npm i
+cd skynet
+npm install --force
 ```
 
 ## Building
