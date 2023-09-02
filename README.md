@@ -4,7 +4,7 @@ The official, ultra-minimal digital garden of Skynet <3.
 
 ## Credits
 
-Based on [Lowmess](https://lowmess.com), a super-cool minimal site (Thank You! Alec, It's really cool 😃).
+Based on [Lowmess](https://lowmess.com), a super-cool minimal site (Thank You! @lowmess, It's really cool 😃 - God bless you! Mate).
 
 ## Installing
 
