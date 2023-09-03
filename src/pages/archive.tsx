@@ -33,11 +33,11 @@ const Archive: React.FC = () => (
 			<VStack gap={5}>
 				<VStack gap={3}>
 					<Heading>
-						Kent C. Dodd's Digital experience <Dates>(2022 &ndash; 2023)</Dates>
+						Kent C. Dodd's Website <Dates>(2022 &ndash; 2023)</Dates>
 					</Heading>
 
 					<Description>
-						There is no way you can hate this, it's so cool! (Please do compare us, we're more into minimalism - WHICH ISN'T BAD, right?!).
+						There is no way you can hate this, it's so cool!.
 					</Description>
 
 					<Tooling>

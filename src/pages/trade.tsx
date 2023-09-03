@@ -38,14 +38,14 @@ const DependencyList = (props) => (
 	/>
 )
 
-const UsesPage: React.FC = () => (
+const TradePage: React.FC = () => (
 	<React.Fragment>
 		<Head>
-			<title key="title">Uses {metadata.titleSuffix}</title>
+			<title key="title">Trade {metadata.titleSuffix}</title>
 		</Head>
 
 		<Header>
-			<HeaderName>Uses</HeaderName>
+			<HeaderName>Trade</HeaderName>
 
 			<HeaderTitle>Our Trade</HeaderTitle>
 		</Header>
@@ -80,4 +80,4 @@ const UsesPage: React.FC = () => (
 	</React.Fragment>
 )
 
-export default UsesPage
+export default TradePage
