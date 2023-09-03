@@ -52,7 +52,7 @@ const TradePage: React.FC = () => (
 
 		<Container mt={5}>
 			<Grid columns={[1, '8rem 1fr']} gap={[4, 5]}>
-				<Heading color="muted-text">Coding Ninja Stuff</Heading>
+				<Heading color="muted-text">Coding Ninja</Heading>
 
 				<DependencyList>
 					<li>
@@ -69,7 +69,7 @@ const TradePage: React.FC = () => (
 
 				<DependencyList>
 					<li>
-						<Dependency href="https://code.visualstudio.com">
+						<Dependency href="#">
 							Digital Marketing & Branding
 						</Dependency>
 						<Details>Shy but want to be out there? We will do it</Details>
