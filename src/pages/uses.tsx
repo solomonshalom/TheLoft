@@ -47,7 +47,7 @@ const UsesPage: React.FC = () => (
 		<Header>
 			<HeaderName>Uses</HeaderName>
 
-			<HeaderTitle>Tools of Our Trade</HeaderTitle>
+			<HeaderTitle>Our Trade</HeaderTitle>
 		</Header>
 
 		<Container mt={5}>
@@ -56,58 +56,23 @@ const UsesPage: React.FC = () => (
 
 				<DependencyList>
 					<li>
-						<Dependency>NextJS</Dependency>
+						<Dependency>Websites // PWA</Dependency>
 
-						<Details>Reac-based framework for developing super cool experiences</Details>
-					</li>
-
-					<li>
-						<Dependency>Firebase (Maybe supabase, depends)</Dependency>
-
-						<Details>Backend // Database</Details>
-					</li>
-
-					<li>
-						<Dependency>
-							Tailwind
-						</Dependency>
-
-						<Details>An aesthetic CSS framework that gives beauty to your projects</Details>
+						<Details>A website is a digital identity and so we make sure it's not good, but great! (PWA Included!)</Details>
 					</li>
 
 				</DependencyList>
 
 				<Heading color="muted-text" mt={[4, 0]}>
-					Software
+					Marketing Samurai
 				</Heading>
 
 				<DependencyList>
 					<li>
 						<Dependency href="https://code.visualstudio.com">
-							VS Code
+							Digital Marketing & Branding
 						</Dependency>
-					</li>
-				</DependencyList>
-
-				<Heading color="muted-text" mt={[4, 0]}>
-					Services
-				</Heading>
-
-				<DependencyList>
-					<li>
-						<Dependency href="https://github.com">GitHub</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://netlify.com">Netlify (Rare)</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://vercel.com">Vercel</Dependency>
-					</li>
-
-					<li>
-						<Dependency href="https://skiff.com">Skiff</Dependency>
+						<Details>Shy but want to be out there? We will do it</Details>
 					</li>
 				</DependencyList>
 			</Grid>

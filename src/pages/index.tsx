@@ -89,7 +89,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 				<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
-					We&rsquo;re Skynet, and we make digital experiences 🌴
+					We&rsquo;re Skynet, and we make digital experiences <link href="/uses">🌴</link> 
 				</Heading>
 				<br></br>
 				<br></br>
