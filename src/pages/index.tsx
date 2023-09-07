@@ -80,7 +80,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 	return (
 		<Container>
 			<Text as="p" variant="section-heading" mb={3}>
-				Introduction // <Link sx={{ textDecoration: 'none' }} href="/blog">Blog</Link>
+				Introduction
 			</Text>
 
 			{/*No idea how, but God, no joke, literally saved the code and deployed! Every Glory is to my Lord and Saviour, Jesus Christ!*/}
