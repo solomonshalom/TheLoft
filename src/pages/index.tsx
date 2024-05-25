@@ -95,8 +95,8 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				{' '}
 				<Heading as="h2" variant="site-intro">
-					Check out our cool (really cool) experience{' '}
-					<Link href="https://theabyss.ink">The Abyss</Link>, an ultra-minimal social platform.
+					Check out our cool (really cool) experience:{' '}
+					<Link href="https://theabyss.ink">Bublr</Link>, an ultra-minimal social platform.
 				</Heading>{' '}
 				<br></br>
 				<br></br>
