@@ -105,7 +105,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				<Text as="p" variant="site-intro">
 					If your interested in knowing more about us or have a cool idea to dicuss,{' '}
-					contact us [at] <Link href="mailto:solomon@theabyss.ink">solomon@theabyss.ink</Link>
+					contact us [at] <Link href="mailto:solomon@bublr.life">solomon@bublr.life</Link>
 				</Text>
 			</Text>
 		</Container>
