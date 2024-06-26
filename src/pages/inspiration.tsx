@@ -17,10 +17,10 @@ const Tooling: React.FC = (props) => (
 	<Text as="p" sx={{ fontSize: 1 }} {...props} />
 )
 
-const Archive: React.FC = () => (
+const Inspiration: React.FC = () => (
 	<React.Fragment>
 		<Head>
-			<title key="title">Archive {metadata.titleSuffix}</title>
+			<title key="title">Inspiration {metadata.titleSuffix}</title>
 		</Head>
 
 		<Header>
@@ -49,4 +49,4 @@ const Archive: React.FC = () => (
 	</React.Fragment>
 )
 
-export default Archive
+export default Inspiration

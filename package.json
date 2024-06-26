@@ -1,7 +1,7 @@
 {
-  "name": "skynet",
+  "name": "justicerest",
   "version": "4.3.0",
-  "description": "Building digital experiences~",
+  "description": "crafting tools that promote equality, morality, and justice!",
   "scripts": {
     "start": "next dev",
     "prebuild": "node scripts/generate-sitemap && node scripts/generate-rss",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solomonshalom/skynet"
+    "url": "git+https://github.com/solomonshalom/JusticeRest"
   },
   "keywords": [
     "portfolio",
@@ -21,7 +21,7 @@
   "author": "JusticeRest",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/solomonshalom/skynet/issues"
+    "url": "https://github.com/solomonshalom/JusticeRest/issues"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
