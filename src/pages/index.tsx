@@ -96,7 +96,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				{' '}
 				<Heading as="h2" variant="site-intro">
 					Check out our cool (really cool) tool:{' '}
-					<Link href="https://chat.justice.rest">JR Chat</Link>, an ultra-minimal platform for lawyers (WIP)!
+					<Link href="https://chat.justice.rest">JR Chat</Link>, an ultra-minimal platform for lawmakers (WIP)!
 				</Heading>{' '}
 				<br></br>
 				<br></br>
