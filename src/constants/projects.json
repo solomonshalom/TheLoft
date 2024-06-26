@@ -1,9 +1,9 @@
 [
   {
-    "title": "Bublr",
+    "title": "Chat",
     "date": "2023-8-07",
-    "description": "An ultra-minimal platform to let your thoughts out~",
-    "website": "https://bublr.life",
-    "repo": "https://github.com/solomonshalom/Bublr"
+    "description": "An ultra-minimal platform for lawmakers",
+    "website": "https://chat.justice.rest",
+    "repo": "https://github.com/solomonshalom/JusticeRest"
   }
 ]

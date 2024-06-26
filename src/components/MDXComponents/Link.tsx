@@ -11,7 +11,7 @@ const Link: React.FC = (props) => (
 				},
 
 				"&[href^='/']::after": {
-					content: `' (https://bublr.life' attr(href) ')'`,
+					content: `' (https://chat.justice.rest' attr(href) ')'`,
 					fontSize: 1,
 				},
 
