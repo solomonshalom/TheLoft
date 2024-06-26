@@ -1,6 +1,6 @@
-# Skynet
+# JusticeRest
 
-The official, ultra-minimal digital garden of Skynet <3.
+The official, ultra-minimal digital garden of JusticeRest <3.
 
 ## Credits
 
