@@ -11,10 +11,10 @@ const ColorModeToggle: React.FC<ButtonProps> = (props) => {
 
 	return (
 		<Button
-			variant="color-mode-toggle"
-			onClick={(): void => {
-				setColorMode(colorMode === 'default' ? 'light' : 'default')
-			}}
+		  variant="color-mode-toggle"
+		  onClick={(): void => {
+			setColorMode(colorMode === 'light' ? 'dark' : 'light');
+		  }}
 			sx={{
 				svg: { width: '1em', height: '1em', transform: 'translateY(-1px)' },
 			}}
