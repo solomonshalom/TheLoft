@@ -33,7 +33,7 @@ const ColorModeToggle: React.FC<ButtonProps> = (props) => {
 				strokeLinecap="round"
 				strokeLinejoin="round"
 			>
-				{colorMode === 'default' ? (
+				{colorMode === 'dark' ? (
 					<React.Fragment>
 						<circle cx="12" cy="12" r="5" />
 						<line x1="12" y1="1" x2="12" y2="3" />
