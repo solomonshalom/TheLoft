@@ -67,27 +67,14 @@ const Footer: React.FC<BoxProps> = (props) => (
 
 					<Text as="ul" variant="list" sx={{ lineHeight: 1.75 }}>
 						<li>
-							<FooterLink href="https://github.com/JusticeRest" external>
-								GitHub
+							<FooterLink href="https://linktr.ee/solomonlijo" external>
+								Socials
 							</FooterLink>
 						</li>
 
 						<li>
-							<FooterLink href="https://twitter.com/JusticeR" external>
-								Twitter
-							</FooterLink>
-						</li>
-
-
-						<li>
-							<FooterLink href="https://linkedin.com/in/lowmess" external>
-								LinkedIn
-							</FooterLink>
-						</li>
-
-						<li>
-							<FooterLink href="https://chat.justice.rest" external>
-								Chat
+							<FooterLink href="https://tlc.solomonlijo.com" external>
+								TheLoft Cafe
 							</FooterLink>
 						</li>
 					</Text>

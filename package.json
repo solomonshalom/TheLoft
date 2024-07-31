@@ -1,7 +1,7 @@
 {
-  "name": "justicerest",
+  "name": "theloft",
   "version": "4.3.0",
-  "description": "crafting tools that promote equality, morality, and justice!",
+  "description": "helping the next generation of christians artists to grow",
   "scripts": {
     "start": "next dev",
     "prebuild": "node scripts/generate-sitemap && node scripts/generate-rss",
@@ -18,7 +18,7 @@
     "frontend",
     "design"
   ],
-  "author": "JusticeRest",
+  "author": "TheLoft",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/solomonshalom/TheLoft/issues"

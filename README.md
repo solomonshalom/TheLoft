@@ -1,6 +1,6 @@
-# JusticeRest
+# TheLoft
 
-The official, ultra-minimal digital garden of JusticeRest <3.
+The official, ultra-minimal digital garden of TheLoft <3.
 
 ## Credits
 
@@ -10,7 +10,7 @@ Based on [Lowmess](https://lowmess.com), a super-cool minimal site (Thank You! @
 
 ```bash
 git clone https://github.com/solomonshalom/TheLoft.git
-cd JusticeRest
+cd TheLoft
 npm install --force
 ```
 
