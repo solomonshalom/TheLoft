@@ -9,7 +9,7 @@ Based on [Lowmess](https://lowmess.com), a super-cool minimal site (Thank You! @
 ## Installing
 
 ```bash
-git clone https://github.com/solomonshalom/JusticeRest.git
+git clone https://github.com/solomonshalom/TheLoft.git
 cd JusticeRest
 npm install --force
 ```

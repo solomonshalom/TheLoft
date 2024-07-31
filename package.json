@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solomonshalom/JusticeRest"
+    "url": "git+https://github.com/solomonshalom/TheLoft"
   },
   "keywords": [
     "portfolio",
@@ -21,7 +21,7 @@
   "author": "JusticeRest",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/solomonshalom/JusticeRest/issues"
+    "url": "https://github.com/solomonshalom/TheLoft/issues"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
